@@ -1,0 +1,337 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Catamaran:wght@200&family=Dancing+Script&family=Inter:wght@100;200;300&family=Manrope:wght@300&family=Montserrat:wght@100;300&family=Nanum+Gothic&family=Open+Sans:wght@300&family=Poppins:wght@100;200&family=Raleway:wght@200&family=Roboto&family=Roboto+Condensed&family=Rubik:ital@0;1&family=Silkscreen&family=Source+Sans+Pro&family=Unbounded:wght@300&display=swap'); */
+*{
+    margin: 0;
+}
+body{
+    /* font-family: 'Roboto', sans-serif; */
+    background-color: #000000;
+}
+
+@media(min-width:124px) and (max-width:950px){
+    .input-group{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .inpp{
+        border-radius: 10px;
+    }
+    .btn{
+        margin-top: 3%;
+    }
+    .netadd{
+        display: flex;
+        flex-direction: column;
+        flex-flow: column;
+    }
+    .textGrid{
+        padding-top: 10%;
+    }
+    .colOne{
+        text-align: center;
+        padding: 0;
+        height: 0;
+    }
+    .downText{
+        font-size: medium;
+        text-align: center;
+        padding-bottom: 10%;
+    }
+    .saifAliKhan{
+        padding-top: 15%;
+    }
+    .imageSaif{
+        padding-bottom: 10%;
+    }
+    .saifHead{
+        text-align: center;
+    }
+    .childText{
+        display: flex;
+        justify-content: center;
+    }
+    .childHead{
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sendChild{
+        padding: 0%;
+    }
+    .thirdnetadd{
+        padding: 0%;
+    }
+    .imgSaif{
+        display: flex;
+        justify-content: center;
+    }
+    .downTextc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footerCheak select{
+        margin-top: 5%;
+    }
+}
+
+.btns{
+    display: flex;
+    justify-content: end;
+}
+.navv{
+    padding: 2% 3% 0% 3% ;
+}
+.sign{
+   /* height: 45px; */
+     /* width: 85px; */
+    padding: 10px 23px 10px 23px;
+    border: none;
+    outline: 0;
+    background-color: rgb(232, 2, 2);
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    border-radius: 3px;
+}
+select{
+    background-color: transparent;
+    border: 1px solid rgb(213, 213, 213);
+    /* height: 36px; */
+    /* width: 106px; */
+    padding: 9px 5px 9px 4  px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 500;
+    outline: 0;
+    margin-right: 3%;
+}
+option{
+    background-color: rgb(189, 187, 187);
+}
+
+.bg{
+    background-image: url(flixcard.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    border-bottom: 8px solid rgb(43, 43, 43);
+}
+.Unlimited{
+    font-size: 50px;
+}
+.heading {
+    height:90vh;
+}
+.head{
+    /* width: 650px; */
+    text-align: center;
+}
+.head h1{
+    font-weight: bolder;
+    padding: 0% 15% 0% 15%;
+}
+.head h4{   
+    font-weight: normal;
+    font-size: 27px;
+    margin-top: 2%;
+}
+.head h5{
+    margin-top: 4%;   
+}
+.input-group input{
+    /* height: 58px; */
+    /* width: 450px; */
+    padding-right: 40%;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    border: 1px solid grey;
+    box-shadow: 0px 0px 2px 0px;
+    padding-left: 1%;
+    border-radius: 0%;
+    outline: 0;
+}
+input::placeholder{
+    color: grey;
+}
+
+.input-group button{
+    height: 58px;
+    width: 220px;
+    font-size: 28px;
+    border: none;
+    background-color: rgb(232, 2, 2);
+    color: #fff;
+    border-radius: 0%;
+}
+
+.input-group{
+    padding: 0% 10% 0% 10%;
+}
+.enjoy{
+    padding: 0% 5% 0% 10%;
+    border-bottom: 8px solid rgb(43, 43, 43);
+}
+.firstnetadd{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.adds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    padding-right: 2%;
+}
+.adds h1{
+    font-size: 45px;
+}
+.adds h5{
+    margin-top: 4%;
+    font-size: 30px;
+    padding-right: 5%;
+}
+.mbbSt{
+    border-bottom: 8px solid rgb(43, 43, 43);
+    
+}
+.secondnetadd{
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-right: 0%;
+}
+.stranger{
+    position: relative;
+    bottom: 150px;
+    left: 130px;
+    background-color: black;
+    width: fit-content;
+    color: #fff;
+    padding: 2% 5% 2% 2%;
+    border-radius: 17px;
+    border: 4px solid rgb(87, 87, 87);
+}
+
+.stranger h6{
+    margin: 0%;
+}
+.stranger p{
+    color: blue;
+    margin: 0;
+}
+
+.downText{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.downText h1{
+    font-size: 45px;
+    /* padding-right: 5%; */
+}
+.thirdnetadd{
+    /* padding: 0% 0% 0% 5%; */
+    border-bottom: 8px solid rgb(43, 43, 43);
+}
+
+
+.saifAliKhan h1{
+    font-size: 45px;
+}
+.saifAliKhan h5{
+    font-size: 25px;
+    /* padding-right: 15%; */
+}
+.imageSaif{
+    padding-top: 9%;
+}
+.forthnetadd{
+    border-bottom: 8px solid rgb(43, 43, 43);
+    padding-bottom: 2%;
+}
+.childText{
+    display: flex;
+    align-items: center;
+}
+.childHead{
+    /* padding-right: 20%; */
+    color: #fff;
+}
+.childHead h1{
+    font-size: 45px;
+    /* padding-right: 15%; */
+}
+.childHead h5{
+    font-size: 25px;
+    font-weight: 500;
+    /* padding-right: 15%; */
+}
+.question{
+    padding-top: 5%;
+    width: 63%;
+    padding-bottom: 5%;
+}
+.question h1{
+    font-size: 50px;
+    color: #fff;
+}
+.accordion-collapse {
+    background-color: rgb(61, 61, 61);
+    color: #fff;
+    font-size: 25px;
+}
+.accordion-item{
+    border: 1px solid black;
+}
+.accordion-header{
+    border-radius: 0%;
+    background-color: #000000;
+}
+.accordion-button{
+    border-radius: 0%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.atribute{
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+    font-size: small;
+    padding: 3% 0% 3% 0%;
+}
+.atribute:hover{
+    text-decoration: underline;
+}
+.netadd h6{
+    color:  rgb(87, 87, 87);
+}
+.netadd h6 a{
+    text-decoration: none;
+    color:  rgb(87, 87, 87);
+}
+.netadd h6 a:hover{
+    text-decoration: underline;
+}
+.footer{
+    padding-top: 10%;
+    padding-bottom: 5%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.footerCheak select{
+    padding: 14px 0px 14px 5px;
+    width: 120px;
+    border: 1px solid rgb(67, 67, 67);
+    border-radius: 2px;
+    font-weight: 400;
+    color:  rgb(106, 106, 106);
+}
+.footer p{
+    font-size: small;
+    color: grey;
+}
