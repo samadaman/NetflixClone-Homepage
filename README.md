@@ -11,6 +11,6 @@
 
 
 ### Technologies Used
-####### HTML: Provides the structure and content for the web page.
-####### CSS: Styles the HTML elements to mimic Netflix's visual design.
-####### Bootstrap: More stylish and functionality added like <b> Accordion </b>
+###### HTML: Provides the structure and content for the web page.
+###### CSS: Styles the HTML elements to mimic Netflix's visual design.
+###### Bootstrap: More stylish and functionality added like <b> Accordion </b>
